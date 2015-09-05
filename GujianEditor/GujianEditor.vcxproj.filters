@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="源文件\Tables">
+      <UniqueIdentifier>{3743b274-c68c-4a4d-bd82-32942cb85fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GujianEditor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GujianEditorDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IncTables.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SortButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CBeautyItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CClothManItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CClothWomanItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CHeadManItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CHeadWomanItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CHomeItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CHYWeaponItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CLSWeaponItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\COutsideClothItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CQSWeaponItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CQXWeaponItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CResourceItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CShoesManItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CShoesWomanItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CStatusItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CTaskItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CTSWeaponItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="Table\CXLWeaponItem.cpp">
+      <Filter>源文件\Tables</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GujianEditor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GujianEditorDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SortButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bg.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Close.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\FQX.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\GujianEditor.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Hongyu.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\HongyuClick.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Introtext.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Lansheng.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\LanshengClick.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ListBg.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\OpenSave.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\OpenSaveClick.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Qianshang.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\QianshangClick.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Qingxue.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\QingxueClick.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SaveSave.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SaveSaveClick.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SortButton.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SortButtonClick.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Tusu.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\TusuClick.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Xiangling.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\XianglingClick.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\disableHandKid.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GujianEditor.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\mouse.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\mouseHand.ani" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GujianEditor.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

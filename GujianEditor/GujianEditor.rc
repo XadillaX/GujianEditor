@@ -1,0 +1,258 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GujianEditor.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\FQX.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 GujianEditor"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "古剑奇谭 存档修改器，1.0 版",IDC_STATIC,42,14,121,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_GUJIANEDITOR_DIALOG DIALOGEX 0, 0, 319, 213
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE | WS_EX_APPWINDOW
+FONT 9, "MS Shell Dlg", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "打开存档",IDC_OPENSAVE,261,12,50,14,BS_BITMAP
+    LISTBOX         IDC_ITEMLIST,203,36,109,170,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,142,165,47,14,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "应用",IDC_EDITAPPLY,107,186,83,14,WS_DISABLED
+    PUSHBUTTON      "饰品",IDC_BEAUTY,31,19,50,14,BS_BITMAP
+    PUSHBUTTON      "男用衣服",IDC_CLOTHMAN,31,35,50,14,BS_BITMAP
+    PUSHBUTTON      "女用衣服",IDC_CLOTHWOMAN,31,50,50,14,BS_BITMAP
+    PUSHBUTTON      "男用头戴",IDC_HEADMAN,31,65,50,14,BS_BITMAP
+    PUSHBUTTON      "女用头戴",IDC_HEADWOMAN,31,80,50,14,BS_BITMAP
+    PUSHBUTTON      "家园装饰",IDC_HOME,31,95,50,14,BS_BITMAP
+    PUSHBUTTON      "外装",IDC_OUTSIDECLOTH,31,110,50,14,BS_BITMAP
+    PUSHBUTTON      "材料原料",IDC_RESOURCE,31,125,50,14,BS_BITMAP
+    PUSHBUTTON      "男靴",IDC_SHOESMAN,31,140,50,14,BS_BITMAP
+    PUSHBUTTON      "女鞋",IDC_SHOESWOMAN,31,155,50,14,BS_BITMAP
+    PUSHBUTTON      "战时用品",IDC_STATUS,31,170,50,14,BS_BITMAP
+    PUSHBUTTON      "任务用品",IDC_TASK,31,186,50,14,BS_BITMAP
+    PUSHBUTTON      "保存存档",IDC_SAVESAVE,203,12,50,14,BS_BITMAP
+    LTEXT           "暂无介绍。",IDC_INTRO,103,112,90,37
+    PUSHBUTTON      "Button2",IDC_BUTTON2,121,17,50,14,BS_BITMAP
+    PUSHBUTTON      "Button3",IDC_QXWeapon,121,31,50,14,BS_BITMAP
+    PUSHBUTTON      "Button4",IDC_HYWeapon,121,45,50,14,BS_BITMAP
+    PUSHBUTTON      "Button5",IDC_XLWeapon,121,59,50,14,BS_BITMAP
+    PUSHBUTTON      "Button6",IDC_LSWeapon,121,73,50,14,BS_BITMAP
+    PUSHBUTTON      "Button7",IDC_QSWEAPON,121,87,50,14,BS_BITMAP
+    PUSHBUTTON      "Button1",IDC_CLOSE,306,1,11,9,BS_BITMAP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "艾克视图(X2Studio.Net)"
+            VALUE "FileDescription", "修改古剑奇谭存档的物品数量。"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "GujianEditor.exe"
+            VALUE "LegalCopyright", "艾克视图版权所有"
+            VALUE "OriginalFilename", "GujianEditor.exe"
+            VALUE "ProductName", "古剑奇谭存档物品修改器"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_GUJIANEDITOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        BOTTOMMARGIN, 206
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BG                  BITMAP                  "res\\bg.bmp"
+IDB_LISTBG              BITMAP                  "res\\ListBg.bmp"
+IDB_OPENSAVE            BITMAP                  "res\\OpenSave.bmp"
+IDB_OPENSAVECLICK       BITMAP                  "res\\OpenSaveClick.bmp"
+IDB_SAVESAVE            BITMAP                  "res\\SaveSave.bmp"
+IDB_SAVESAVECLICK       BITMAP                  "res\\SaveSaveClick.bmp"
+IDB_INTROTEXT           BITMAP                  "res\\Introtext.bmp"
+IDB_SORT                BITMAP                  "res\\SortButton.bmp"
+IDB_SORTCLICK           BITMAP                  "res\\SortButtonClick.bmp"
+IDB_TUSU                BITMAP                  "res\\Tusu.bmp"
+IDB_TUSUCLICK           BITMAP                  "res\\TusuClick.bmp"
+IDB_QINGXUE             BITMAP                  "res\\Qingxue.bmp"
+IDB_QINGXUECLICK        BITMAP                  "res\\QingxueClick.bmp"
+IDB_HONGYU              BITMAP                  "res\\Hongyu.bmp"
+IDB_HONGYUCLICK         BITMAP                  "res\\HongyuClick.bmp"
+IDB_XIANGLING           BITMAP                  "res\\Xiangling.bmp"
+IDB_XIANGLINGCLICK      BITMAP                  "res\\XianglingClick.bmp"
+IDB_LANSHENG            BITMAP                  "res\\Lansheng.bmp"
+IDB_LANSHENGCLICK       BITMAP                  "res\\LanshengClick.bmp"
+IDB_QIANSHANG           BITMAP                  "res\\Qianshang.bmp"
+IDB_QIANSHANGCLICK      BITMAP                  "res\\QianshangClick.bmp"
+IDB_CLOSE               BITMAP                  "res\\Close.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_SWORD               CURSOR                  "res\\mouse.cur"
+IDC_HANDCURSOR          CURSOR                  "res\\disableHandKid.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 古剑奇谭 存档修改器(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GujianEditor.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

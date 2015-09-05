@@ -1,0 +1,72 @@
+#include "../stdafx.h"
+#include "../IncTables.cpp"
+
+void CGujianEditorDlg::InitBeautyItem()
+{
+    BeautyItem[L"暖玉圭璧"].id = 22422, BeautyItem[L"暖玉圭璧"].des = L"反弹火属性伤害";
+    BeautyItem[L"翡翠葫芦"].id = 22311, BeautyItem[L"翡翠葫芦"].des = L"战斗胜利时恢复精气神";
+    BeautyItem[L"吓须镯"].id = 22423, BeautyItem[L"吓须镯"].des = L"女用，防+60";
+    BeautyItem[L"锦兰香串"].id = 22424, BeautyItem[L"锦兰香串"].des = L"对衰弱的抗性提升";
+    BeautyItem[L"缠臂金"].id = 22425, BeautyItem[L"缠臂金"].des = L"女用，攻+60";
+    BeautyItem[L"茜香罗"].id = 22426, BeautyItem[L"茜香罗"].des = L"女用，战斗中自动恢复神";
+    BeautyItem[L"绛纹戒指"].id = 22427, BeautyItem[L"绛纹戒指"].des = L"男用，战斗中自动恢复精";
+    BeautyItem[L"阴阳镜"].id = 22428, BeautyItem[L"阴阳镜"].des = L"晴雪，基本攻击追加即死";
+    BeautyItem[L"龙虎玉带钩"].id = 22429, BeautyItem[L"龙虎玉带钩"].des = L"免疫眩晕";
+    BeautyItem[L"玉蝴蝶"].id = 22430, BeautyItem[L"玉蝴蝶"].des = L"反弹土属性伤害";
+    BeautyItem[L"沉香镂金囊"].id = 22431, BeautyItem[L"沉香镂金囊"].des = L"对毒的抗性提升";
+    BeautyItem[L"混元伞"].id = 22432, BeautyItem[L"混元伞"].des = L"对人的伤害提升";
+    BeautyItem[L"照妖鉴"].id = 22433, BeautyItem[L"照妖鉴"].des = L"对妖的伤害提升";
+    BeautyItem[L"青劳宝色旗"].id = 22434, BeautyItem[L"青劳宝色旗"].des = L"对鬼的伤害提升";
+    BeautyItem[L"五龙轮"].id = 22435, BeautyItem[L"五龙轮"].des = L"对灵的伤害提升";
+    BeautyItem[L"减轻金属性伤害"].id = 22436, BeautyItem[L"减轻金属性伤害"].des = L"";
+    BeautyItem[L"定风珠"].id = 22437, BeautyItem[L"定风珠"].des = L"减轻木属性伤害";
+    BeautyItem[L"玉龙环"].id = 22438, BeautyItem[L"玉龙环"].des = L"减轻水属性伤害";
+    BeautyItem[L"三宝玉如意"].id = 22439, BeautyItem[L"三宝玉如意"].des = L"减轻土属性伤害";
+    BeautyItem[L"琥珀琉璃珠"].id = 22315, BeautyItem[L"琥珀琉璃珠"].des = L"减轻物理伤害";
+    BeautyItem[L"伽楠镶金环"].id = 22316, BeautyItem[L"伽楠镶金环"].des = L"精+60，减轻各种法术伤害少许";
+    BeautyItem[L"龙涎坠"].id = 22317, BeautyItem[L"龙涎坠"].des = L"攻击时会吸收对手的生命力";
+    BeautyItem[L"赤珠镶金链"].id = 22318, BeautyItem[L"赤珠镶金链"].des = L"对金属化的抗性提升";
+    BeautyItem[L"双蛇盘舞"].id = 22319, BeautyItem[L"双蛇盘舞"].des = L"反弹物理伤害";
+    BeautyItem[L"双龙戏珠"].id = 22320, BeautyItem[L"双龙戏珠"].des = L"对仙的伤害提升";
+    BeautyItem[L"牛皮板带"].id = 22401, BeautyItem[L"牛皮板带"].des = L"男用，气+60";
+    BeautyItem[L"香囊"].id = 22402, BeautyItem[L"香囊"].des = L"神+60";
+    BeautyItem[L"黄铜手套"].id = 22403, BeautyItem[L"黄铜手套"].des = L"受到攻击后自动反击";
+    BeautyItem[L"铁木护肩"].id = 22404, BeautyItem[L"铁木护肩"].des = L"男用，攻+60";
+    BeautyItem[L"相思扣"].id = 22405, BeautyItem[L"相思扣"].des = L"敏+60";
+    BeautyItem[L"铁臂钏"].id = 22406, BeautyItem[L"铁臂钏"].des = L"男用，防+60";
+    BeautyItem[L"金耳坠"].id = 22407, BeautyItem[L"金耳坠"].des = L"女用，运+60";
+    BeautyItem[L"琉璃珰"].id = 22408, BeautyItem[L"琉璃珰"].des = L"襄铃，战斗胜利时容易得到战利品";
+    BeautyItem[L"羊脂扳指"].id = 22409, BeautyItem[L"羊脂扳指"].des = L"男用，运+60";
+    BeautyItem[L"同心结"].id = 22410, BeautyItem[L"同心结"].des = L"精+500";
+    BeautyItem[L"手指虎"].id = 22411, BeautyItem[L"手指虎"].des = L"容易招架敌人的攻击";
+    BeautyItem[L"秋香丝绦"].id = 22412, BeautyItem[L"秋香丝绦"].des = L"女用，气+60";
+    BeautyItem[L"珊瑚川椒"].id = 22440, BeautyItem[L"珊瑚川椒"].des = L"减轻火属性伤害";
+    BeautyItem[L"五曜神珠"].id = 22441, BeautyItem[L"五曜神珠"].des = L"五行属性灵力提升，减轻五行属性伤害，对各种不良状态的抗性提";
+    BeautyItem[L"八卦云光帕"].id = 22442, BeautyItem[L"八卦云光帕"].des = L"反弹木属性伤害";
+    BeautyItem[L"五岳真形图"].id = 22443, BeautyItem[L"五岳真形图"].des = L"五行属性灵力提升";
+    BeautyItem[L"青木王鼎"].id = 22444, BeautyItem[L"青木王鼎"].des = L"木属性灵力提升";
+    BeautyItem[L"离火神珠"].id = 22445, BeautyItem[L"离火神珠"].des = L"火属性灵力提升";
+    BeautyItem[L"紫金绶带"].id = 22446, BeautyItem[L"紫金绶带"].des = L"金属性灵力提升";
+    BeautyItem[L"冰凛凝华"].id = 22447, BeautyItem[L"冰凛凝华"].des = L"水属性灵力提升";
+    BeautyItem[L"九转劫石"].id = 22448, BeautyItem[L"九转劫石"].des = L"土属性灵力提升";
+    BeautyItem[L"建木残片"].id = 22449, BeautyItem[L"建木残片"].des = L"神-16，气-16，森属性灵力大幅提升，土金属性灵力下降";
+    BeautyItem[L"若木火实"].id = 22450, BeautyItem[L"若木火实"].des = L"神-16，气-16，火属性灵力大幅提升，金水属性灵力下降";
+    BeautyItem[L"肃杀金令"].id = 22451, BeautyItem[L"肃杀金令"].des = L"神-16，气-16，金属性灵力大幅提升，木火属性灵力下降";
+    BeautyItem[L"榣山水镜"].id = 22452, BeautyItem[L"榣山水镜"].des = L"神-16，气-16，水属性灵力大幅提升，火土属性灵力下降";
+    BeautyItem[L"忘川虚沙"].id = 22453, BeautyItem[L"忘川虚沙"].des = L"神-16，气-16，土属性灵力大幅提升，水木属性灵力下降";
+    BeautyItem[L"璎珞圈"].id = 22303, BeautyItem[L"璎珞圈"].des = L"女用，容易出现暴击";
+    BeautyItem[L"如意绦"].id = 22413, BeautyItem[L"如意绦"].des = L"战斗胜利时得到地金钱加倍";
+    BeautyItem[L"攒珠银带"].id = 22414, BeautyItem[L"攒珠银带"].des = L"反弹水属性伤害";
+    BeautyItem[L"九曲珠"].id = 22415, BeautyItem[L"九曲珠"].des = L"对混乱的抗性提升";
+    BeautyItem[L"凤凰金翎"].id = 22416, BeautyItem[L"凤凰金翎"].des = L"可以战斗中自动复活一次，之后此饰品消失";
+    BeautyItem[L"四神铭文镜"].id = 22417, BeautyItem[L"四神铭文镜"].des = L"反弹金属性伤害";
+    BeautyItem[L"仙人杂宝镜"].id = 22418, BeautyItem[L"仙人杂宝镜"].des = L"反弹各种法术伤害少许";
+    BeautyItem[L"凤尾罗"].id = 22419, BeautyItem[L"凤尾罗"].des = L"对即死的抗性提升";
+    BeautyItem[L"玛瑙葫芦"].id = 22420, BeautyItem[L"玛瑙葫芦"].des = L"对残废的抗性提升";
+    BeautyItem[L"牡丹青玉镯"].id = 22421, BeautyItem[L"牡丹青玉镯"].des = L"命中提升";
+    BeautyItem[L"赤豹项链"].id = 22304, BeautyItem[L"赤豹项链"].des = L"对兽的伤害提升";
+    BeautyItem[L"珊瑚项链"].id = 22305, BeautyItem[L"珊瑚项链"].des = L"战斗胜利时获得的经验增加";
+    BeautyItem[L"贝壳项圈"].id = 22306, BeautyItem[L"贝壳项圈"].des = L"对冰冻的抗性提升";
+    BeautyItem[L"玉以龙挂璜"].id = 22308, BeautyItem[L"玉以龙挂璜"].des = L"男用，暴击效果强化";
+    BeautyItem[L"赤珠金螭"].id = 22310, BeautyItem[L"赤珠金螭"].des = L"回避率提升";
+}
